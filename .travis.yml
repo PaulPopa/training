@@ -1,0 +1,9 @@
+language: java
+kdg: openjdk11
+cache:
+  directories: $Home/.m2
+notifications:
+  email:
+    recipients: paul.popa1995@yahoo.ro
+    on_failure: always
+    on_success: never
